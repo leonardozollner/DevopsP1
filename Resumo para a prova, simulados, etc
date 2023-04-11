@@ -1,0 +1,277 @@
+Considere o seguinte cenário.
+
+1. Há três equipes de desenvolvimento, cada qual responsável por um módulo independente.
+
+2. O controle de versão é feito por todas as equipes utilizando o Git.
+
+3. Há um único repositório remoto e uma única branch e os desenvolvedores das três equipes fazem push diretamente nela, com o objetivo de acelerar o processo de entrega e implantação.
+
+
+
+Agora, analise as seguintes proposições.
+
+
+
+I. Como todas as equipes usam o mesmo repositório, podemos dizer que a integração contínua está caracterizada.
+
+II. A cada push, é certo que um novo deploy acontece.
+
+III. Independentemente do número de repositórios e branches, a caracterização da integração contínua depende da frequência com que os desenvolvedores fazem push.
+
+
+
+É correto apenas o que se afirma em 
+
+
+
+
+
+
+I
+
+
+II
+
+
+III
+
+
+I e II
+
+
+II e III
+
+Resposta : III Independentemente do número de repositórios e branches, a caracterização da integração contínua depende da frequência com que os desenvolvedores fazem push.
+
+
+
+
+
+
+
+Questão 2
+
+
+
+
+I. A participação de um membro de cada equipe na fase de integração é o que garante a integração contínua.
+
+II. Nada impede que a equipe responsável pelo módulo de pagamentos faça uso de múltiplas branches, o que não compromete a potencial integração contínua.
+
+III. A integração contínua somente é viável pelo fato de as três equipes de desenvolvimento compartilharem o mesmo repositório Git, ainda que utilizem branches diferentes.
+
+
+
+
+
+
+É correto apenas o que se afirma em
+
+
+I
+
+
+II
+
+
+III
+
+
+I e II
+
+
+I, II e III
+
+Feedback
+Sua resposta está correta.
+A resposta correta é:
+II.
+
+
+
+
+
+Questão 3
+
+
+
+
+
+Remover a equipe de integração do processo retratado inviabiliza a integração contínua.
+
+
+A figura mostra que cada equipe de desenvolvimento utiliza o seu próprio repositório Git.
+
+
+A figura mostra que cada equipe de desenvolvimento usa a sua própria branch.
+
+
+Segundo a figura, um software que tenha sido implantado necessariamente passou pelos testes de garantia de qualidade.
+
+
+Segundo a figura, a implantação em ambiente de teste requer aprovação da equipe de testes de garantia de qualidade.
+
+Feedback
+Sua resposta está correta.
+As respostas corretas são:
+A figura mostra que cada equipe de desenvolvimento usa a sua própria branch.,
+
+Segundo a figura, um software que tenha sido implantado necessariamente passou pelos testes de garantia de qualidade.
+
+
+
+
+
+
+Questão 4
+
+
+
+
+
+Segundo a figura, há a possibilidade de um erro de Build acontecer antes mesmo de a fase de compilação ser acionada.
+
+
+A fase de testes automatizados pode incluir testes unitários.
+
+
+A fase de compilação pode ser desnecessária, dependendo da natureza da solução implementada. Além disso, a sua eventual falta não compromete a integração contínua.
+
+
+A existência de um servidor de build é o que caracteriza a integração contínua.
+
+Feedback
+Sua resposta está correta.
+As respostas corretas são:
+A fase de testes automatizados pode incluir testes unitários.,
+
+A fase de compilação pode ser desnecessária, dependendo da natureza da solução implementada. Além disso, a sua eventual falta não compromete a integração contínua.
+
+
+
+
+
+Questão 5
+
+Analise a figura e as proposições a seguir.
+
+
+
+
+
+I. A figura ilustra o que chamamos de entrega contínua.
+
+II. A figura ilustra o que chamamos de implantação contínua.
+
+III. A existência do "Script que faz automaticamente" é o que garante a integração contínua.
+
+
+
+É correto apenas o que se afirma em
+
+
+I
+
+
+II
+
+
+III
+
+
+I e II
+
+
+II e III
+
+Feedback
+Sua resposta está correta.
+A resposta correta é:
+I.
+
+
+
+Questão 6
+
+Marque as duas alternativas corretas.
+
+
+Um teste "ping pong" é aquele que envolve as operações do tipo CRUD da aplicação.
+
+
+No Gitlab CI, se um pipeline possui dois stages, o que executa primeiro é aquele que possui o maior número de jobs.
+
+
+No Gitlab CI, se um stage possui múltiplos jobs, eles podem executar em paralelo.
+
+
+No Gitlab CI, se um pipeline possui múltiplos stages, eles executam em paralelo por padrão.
+
+
+No Gitlab CI, tanto jobs quanto stages podem ser especificados utilizando-se a linguagem YAML.
+
+Feedback
+Sua resposta está correta.
+As respostas corretas são:
+No Gitlab CI, se um stage possui múltiplos jobs, eles podem executar em paralelo.,
+
+No Gitlab CI, tanto jobs quanto stages podem ser especificados utilizando-se a linguagem YAML
+
+
+
+
+
+Questão 7
+
+Analise o script em YAML e as proposições a seguir.
+
+
+
+
+
+I. Apesar de um teste ping pong ser especificado, ele nunca é executado.
+
+II. O artefato produzido pode incluir múltiplos arquivos.
+
+III. O script define dois stages que executam em paralelo.
+
+
+
+É correto o que se afirma apenas em
+
+
+I
+
+
+II
+
+
+III
+
+
+I e II
+
+
+II e III.
+
+Feedback
+Sua resposta está correta.
+A resposta correta é:
+II.
+
+
+
+
+
+
+Questão 8
+
+Texto da questão
+A implantação contínua acontece quando o processo Devops inclui uma equipe de garantia de qualidade de software que atua com testes manuais e automatizados na fase que antecede a implantação.
+
+Escolha uma opção:
+Verdadeiro
+Falso 
+
+Feedback
+A resposta correta é 'Falso'.
