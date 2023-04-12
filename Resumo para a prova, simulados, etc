@@ -43,7 +43,7 @@ II e III
 
 Resposta : III Independentemente do número de repositórios e branches, a caracterização da integração contínua depende da frequência com que os desenvolvedores fazem push.
 
-
+Integração contínua = Freqência de Push
 
 
 
@@ -85,7 +85,8 @@ I, II e III
 Feedback
 Sua resposta está correta.
 A resposta correta é:
-II.
+
+II.Nada impede que a equipe responsável pelo módulo de pagamentos faça uso de múltiplas branches, o que não compromete a potencial integração contínua.
 
 
 
@@ -114,10 +115,11 @@ Segundo a figura, a implantação em ambiente de teste requer aprovação da equ
 Feedback
 Sua resposta está correta.
 As respostas corretas são:
+
+
 A figura mostra que cada equipe de desenvolvimento usa a sua própria branch.,
 
 Segundo a figura, um software que tenha sido implantado necessariamente passou pelos testes de garantia de qualidade.
-
 
 
 
@@ -187,9 +189,13 @@ II e III
 Feedback
 Sua resposta está correta.
 A resposta correta é:
-I.
+
+I. A figura ilustra o que chamamos de entrega contínua.
 
 
+
+Entrega contínua = devs sempre produzindo
+implementação contínua = deploy automático
 
 Questão 6
 
@@ -213,6 +219,8 @@ No Gitlab CI, tanto jobs quanto stages podem ser especificados utilizando-se a l
 Feedback
 Sua resposta está correta.
 As respostas corretas são:
+
+
 No Gitlab CI, se um stage possui múltiplos jobs, eles podem executar em paralelo.,
 
 No Gitlab CI, tanto jobs quanto stages podem ser especificados utilizando-se a linguagem YAML
@@ -257,7 +265,8 @@ II e III.
 Feedback
 Sua resposta está correta.
 A resposta correta é:
-II.
+
+II. O artefato produzido pode incluir múltiplos arquivos.
 
 
 
